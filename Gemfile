@@ -30,10 +30,11 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.6'
+  gem 'rspec-activemodel-mocks'
 end
 
 group :test do
-  gem 'capybara', '~> 2.3.0'
+  gem 'capybara', '~> 3.0'
 end
 
 group :development, :test do
